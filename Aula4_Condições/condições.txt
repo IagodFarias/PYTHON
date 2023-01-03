@@ -1,0 +1,11 @@
+
+
+if python.condição():
+
+    bloco true
+
+else: condição
+
+    bloco false
+
+
