@@ -6,6 +6,6 @@ x = random.randrange(1,5)
 num = float(input("adivinhe o número: "))
 if x == num:
     print("você acertou o número")
-else: print("vc não acertou o número, ele era {}".format(x))
+else: print("\033[4;30;45m vc não acertou o número, ele era {}\033[4m".format(x))
 
 
