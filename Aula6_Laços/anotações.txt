@@ -1,0 +1,10 @@
+Estrutura
+
+For c in range(start, end, passo):
+    ação()
+
+Obs.: o for não considera o último valor do range.
+
+Ex.:
+For c in range(6, 0, -1) - conta ao contrário, istó é, ele irá tirar -1 a cada iteração
+for c in range(0, 7, 2) - adiciona duas unidades ao contador.
