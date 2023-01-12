@@ -1,6 +1,6 @@
 #faça um programa que leia número inteiros e verifique se ele é primo ou não
 flag = 0
-num = int(input(" digite um número: "))
+num = int(input("digite um número: "))
 for c in range(1, num):
     rest = num % c
     if rest != 0:
