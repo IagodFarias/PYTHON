@@ -1,0 +1,11 @@
+Estrutura de Repetição por teste lógico
+
+While condição():
+    action()
+
+
+
+While not condição:
+    action()
+
+
