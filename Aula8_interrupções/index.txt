@@ -1,0 +1,1 @@
+break => encerra um ciclo de repetição geralmente ocorre em um if
