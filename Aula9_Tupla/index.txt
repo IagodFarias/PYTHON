@@ -1,0 +1,13 @@
+=> Uma tupla ( tuple ) em Python é uma sequência 
+imutável de valores de qualquer tipo
+
+=> strings são exemplos de tuplas, e portanto, as técnicas de fatiamento
+funcionam de maneira análoga para elas
+
+
+=> Condições com tuplas
+    -> for c in 'tupla':
+        ação()
+
+=>
+    
