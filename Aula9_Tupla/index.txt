@@ -1,3 +1,7 @@
+Variáveis Compostas
+# para declarar:
+        tupla = ()
+
 => Uma tupla ( tuple ) em Python é uma sequência 
 imutável de valores de qualquer tipo
 
@@ -8,6 +12,18 @@ funcionam de maneira análoga para elas
 => Condições com tuplas
     -> for c in 'tupla':
         ação()
+    -> for pos,c in enumerate(lista):
+        açaõ()
 
-=>
-    
+=> a = (1,2,3)
+   b = (5,7,8)
+   a + b = (1,2,3,5,7,8)
+   b + a = (5,7,8,1,2,3)
+
+=> sorted(lista)  ----> organiza a lista
+
+
+Alguns métodos internos da tupla
+
+tupla.count() -----> devolove o número de vezes que um elemento aparece dentro da tupla
+tupla.index(elemente, deslocamento) -----> devolve a posição de um elemento dentro de uma tupla
