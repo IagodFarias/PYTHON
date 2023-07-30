@@ -9,3 +9,6 @@ else: condição
     bloco false
 
 
+Operador Ternario do IF
+valor_se_verdadeiro if condicao else valor_se_falso
+

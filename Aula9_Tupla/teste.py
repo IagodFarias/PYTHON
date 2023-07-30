@@ -1,13 +1,9 @@
 
-import time
-
 lista = 'hamburguer', 'suco', 'pizza', 'pudim'
 
-#for c in lista:
-#    print(f"{c}")
+print(type(lista))
 
-#for c in range(0, len(lista)):
-#   print(lista[c])
 
-print(lista[-1:2])
+print(type(lista))
+
 

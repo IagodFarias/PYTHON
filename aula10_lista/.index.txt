@@ -1,0 +1,37 @@
+=> Uma lista (list) em Python é uma sequência ou coleção ordenada de valores. 
+Cada valor na lista é identificado por um índice. 
+O valores que formam uma lista são chamados elementos ou itens.
+
+definição
+ - Lista = []
+
+ Métodos 
+
+ Métodos de Modificação:
+
+    -append(elemento): Adiciona um elemento ao final da lista.
+    - extend(iteravel): Adiciona os elementos de um iterável (outra lista, tupla, etc.) ao final da lista.
+    - insert(indice, elemento): Insere um elemento em uma posição específica da lista.
+    - remove(elemento): Remove a primeira ocorrência do elemento especificado da lista.
+    - pop([indice]): Remove e retorna o elemento na posição especificada (ou o último elemento se nenhum índice for fornecido).
+    - clear(): Remove todos os elementos da lista, deixando-a vazia.
+
+Métodos de Pesquisa e Acesso:
+    - 7. index(elemento[, inicio[, fim]]): Retorna o índice da primeira ocorrência do elemento na lista (ou lança um erro se não encontrado).
+    - count(elemento): Conta o número de ocorrências do elemento na lista.
+
+Métodos de Ordenação:
+    - 9. sort(key=None, reverse=False): Ordena a lista em ordem crescente (ou com base em uma função de ordenação personalizada).
+    - reverse(): Inverte a ordem dos elementos na lista.
+
+Métodos de Agregação:
+    - 11. copy(): Cria uma cópia rasa (shallow copy) da lista.
+    - len(lista): Retorna o número de elementos na lista.
+    - max(lista): Retorna o maior elemento da lista.
+    - min(lista): Retorna o menor elemento da lista.
+    - sum(lista): Retorna a soma dos elementos da lista (apenas se todos os elementos forem numéricos).
+    - sorted(iteravel, key=None, reverse=False): Retorna uma nova lista ordenada a partir do iterável (sem modificar a lista original).
+    - all(iteravel): Retorna True se todos os elementos do iterável são True ou se o iterável estiver vazio.
+    - any(iteravel): Retorna True se qualquer elemento do iterável for True. Retorna False se o iterável estiver vazio.
+    - enumerate(iteravel, start=0): Retorna um objeto enumerado que contém pares de índice e valor do iterável.
+    - zip(iteravel1, iteravel2, ...): Combina elementos de iteráveis em uma lista de tuplas com elementos correspondentes.

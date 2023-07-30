@@ -1,0 +1,34 @@
+
+1. Fatiamento (Slicing):
+    -string[start:]: Retorna uma cópia da string começando no índice start até o final da string.
+    -string[:end]: Retorna uma cópia da string do início até o índice end - 1.
+    -string[start:end]: Retorna uma cópia da string do índice start até o índice end - 1.
+    -string[start:end:step]: Retorna uma cópia da string a partir do índice start até o índice end - 1, com um passo definido por step. O step pode ser usado para obter subconjuntos intercalados da string.
+    -string[::-1]: Retorna uma cópia da string invertida, ou seja, os caracteres na ordem reversa.
+    -string[-1]: Retorna o último caractere da string.
+    - len(string): Retorna o tamanho (número de caracteres) da string.
+    -string.lower(): Retorna uma cópia da string com todos os caracteres em letras minúsculas.
+    -string.upper(): Retorna uma cópia da string com todos os caracteres em letras maiúsculas.
+    -string.strip(): Retorna uma cópia da string removendo espaços em branco no início e no final.
+
+2. Manipulação de Caracteres e Transformação:
+    -string.split(sep): Divide a string em uma lista de substrings usando o separador sep.
+    -string.replace(old, new): Retorna uma cópia da string com todas as ocorrências de old substituídas por new.
+    -string.join(iterable): Concatena os elementos de um iterável (por exemplo, uma lista) usando a string como separador.
+
+3. Busca e Contagem:
+    -string.startswith(prefix): Retorna True se a string começar com o prefixo especificado, caso contrário, retorna False.
+    -string.endswith(suffix): Retorna True se a string terminar com o sufixo especificado, caso contrário, retorna False.
+    -string.find(substring): Retorna o índice da primeira ocorrência da substring na string. Se não encontrar, retorna -1.
+    -string.count(substring): Retorna o número de ocorrências da substring na string.
+4. Verificação de Propriedades:
+    -string.isalpha(): Retorna True se todos os caracteres da string são alfabéticos (letras), caso contrário, retorna False.
+    -string.isdigit(): Retorna True se todos os caracteres da string são dígitos, caso contrário, retorna False.
+    -string.islower(): Retorna True se todos os caracteres da string são letras minúsculas, caso contrário, retorna False.
+    -string.isupper(): Retorna True se todos os caracteres da string são letras maiúsculas, caso contrário, retorna False.
+    -string.isalnum(): Retorna True se todos os caracteres da string são alfanuméricos (letras ou dígitos), caso contrário, retorna False.
+    -string.isdecimal(): Retorna True se todos os caracteres da string são dígitos decimais, caso contrário, retorna False.
+5. Divisão e Concatenação:
+    -string.capitalize(): Retorna uma cópia da string com o primeiro caractere em maiúscula e o restante em minúsculas.
+    -string.title(): Retorna uma cópia da string com o primeiro caractere de cada palavra em maiúscula.
+    -string.swapcase(): Retorna uma cópia da string com os caracteres em letras maiúsculas convertidos para minúsculas e vice-versa.

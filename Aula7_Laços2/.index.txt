@@ -9,3 +9,7 @@ While not condição:
     action()
 
 
+While True:
+    action()
+
+
