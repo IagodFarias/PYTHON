@@ -12,3 +12,7 @@ for c in range(0 , cont):
 if flag == -1:        
     print("A frase é um palídromo")
 else: print("A frase não é um palídromo")
+
+"""
+texto é um comentário
+"""
